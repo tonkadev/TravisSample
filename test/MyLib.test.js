@@ -3,7 +3,7 @@ QUnit.module('General');
 QUnit.test('some basic tests', 7, function (assert) {
 	var x, y;
 
-	assert.equal('Foo', 'Foo', 'Similar strings are.. equal');
+	assert.equal('Foo', 'Fee', 'Similar strings are.. equal');
 
 	assert.equal(true, 1, 'Boolean true and 1 are similar');
 
@@ -12,7 +12,7 @@ QUnit.test('some basic tests', 7, function (assert) {
 	// Primitive values are compared by value. Two trues are both stictly the same.
 	assert.strictEqual(true, true, 'of course one boolean true is *strictly* the same as another boolean true');
 
-	x = { one : 1, two: 1 };
+	x = { one : 1, two: 2 };
 	y = x;
 	assert.strictEqual(
 		x,
