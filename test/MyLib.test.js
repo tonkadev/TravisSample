@@ -12,7 +12,7 @@ QUnit.test('some basic tests', 7, function (assert) {
 	// Primitive values are compared by value. Two trues are both stictly the same.
 	assert.strictEqual(true, true, 'of course one boolean true is *strictly* the same as another boolean true');
 
-	x = { one : 1, two: 2 };
+	x = { one : 1, two: 1 };
 	y = x;
 	assert.strictEqual(
 		x,
