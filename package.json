@@ -23,7 +23,7 @@
   },
   "main": "./src/MyLib.js",
   "scripts": {
-    "test": "grunt test && node test/node-index.js"
+    "test": "grunt test"
   },
   "dependencies": {},
   "devDependencies": {
