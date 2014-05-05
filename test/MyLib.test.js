@@ -3,7 +3,7 @@ QUnit.module('General');
 QUnit.test('some basic tests', 7, function (assert) {
 	var x, y;
 
-	assert.equal('Foo', 'Fee', 'Similar strings are.. equal');
+	assert.equal('Foo', 'Foo', 'Similar strings are.. equal');
 
 	assert.equal(true, 1, 'Boolean true and 1 are similar');
 
